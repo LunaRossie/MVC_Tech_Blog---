@@ -1,27 +1,32 @@
 const User = require('./User');
-const Review = require('./Review');
-const Category = require('./Category');
+const Post = require('./Post');
+const Comment = require('./Comment');
 
-// Define a Driver as having many Cars, thus creating a foreign key in the `car` table
-Review.hasMany(Category, {
-  foreignKey: 'review_id',
-  onDelete: 'CASCADE',
+User.hasMany(Post, {
+  foreignKey: 'user_id'
 });
-
-// The association can also be created from the Car side
-Category.belongsTo(Review, {
-  foreignKey: 'review_id',
-});
-
-User.hasMany(Review, {
+Post.belongsTo(User, {
   foreignKey: 'user_id',
-  onDelete: 'CASCADE',
+  onDelete: "cascade"
 });
 
-// The association can also be created from the Car side
-Review.belongsTo(User, {
+Comment.belongsTo(User, {
   foreignKey: 'user_id',
+  onDelete: "cascade"
 });
 
+Comment.belongsTo(Post, {
+  foreignKey: 'post_id',
+  onDelete: "cascade"
+});
 
-module.exports = { User, Review, Category};
+User.hasMany(Comment, {
+  foreignKey: 'user_id',
+  onDelete: "cascade"
+});
+
+Post.hasMany(Comment, {
+  foreignKey: 'post_id',
+  onDelete: "cascade"
+})
+module.exports = { User, Post, Comment };
