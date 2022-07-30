@@ -19,10 +19,13 @@ The user must create a basic repository including gitignore "node_modules" and l
 
 ## Github
 
-
+https://github.com/LunaRossie/MVC_Tech_Blog---
 
 ## Deployed Website
 
+
+
+## Video Link
 
 
 
@@ -33,4 +36,4 @@ I chose "MIT"
 
 ## Questions
 
-If you have any questions regarding this project, please reach out via email "Terminalbash2022@outlook.com".
+If you have any questions regarding this project, please reach out via email "Terminalbash2022@outlook.com". https://github.com/LunaRossie/MVC_Tech_Blog---
