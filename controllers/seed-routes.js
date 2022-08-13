@@ -2,7 +2,7 @@ const router = require('express').Router();
 const { Post, User, Comment } = require('../../models');
 
 const userData = require('../../seeds/userData.json');
-const reviewData = require('../../seeds/reviewdata.json');
+const commentData = require('../../seeds/commentdata.json');
 
 router.post('/',async (req, res) => {
 
