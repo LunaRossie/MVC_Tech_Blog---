@@ -5,6 +5,7 @@ Table of Contents
 # Instruction
 # Github 
 # Deployed Website
+# Heroku URL
 # Video Link
 # License
 # Questions
@@ -23,6 +24,13 @@ https://github.com/LunaRossie/MVC_Tech_Blog---
 
 ## Deployed Website
 
+https://lunarossie.github.io/MVC_Tech_Blog---/
+
+
+## Heroku URL
+
+https://git.heroku.com/intense-stream-12990.git
+https://dashboard.heroku.com/apps/intense-stream-12990/settings
 
 
 ## Video Link
