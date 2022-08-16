@@ -9,5 +9,23 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.19",
     "sequelize": "^6.21.3"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mvc_tech_blog---",
+  "description": "Table of Contents # Description # Instruction # Github  # Deployed Website # Heroku URL # Video Link # License # Questions",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaRossie/MVC_Tech_Blog---.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LunaRossie/MVC_Tech_Blog---/issues"
+  },
+  "homepage": "https://github.com/LunaRossie/MVC_Tech_Blog---#readme"
 }
